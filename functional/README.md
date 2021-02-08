@@ -11,6 +11,7 @@ Funções puras são funções que não geram `side effects`, ou seja, não alte
 x = 5
 
 def adicionar_cinco():
+  global x
   x += 5
 
 adicionar_cinco()
